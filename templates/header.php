@@ -2,6 +2,8 @@
 <?php
 
 include_once("helpers/url.php");
+include_once("data/posts.php");
+include_once("data/categories.php");
 
 ?>
 
@@ -29,10 +31,10 @@ include_once("helpers/url.php");
 
     <nav>
       <ul id="navbar">
-        <li><a href="<?= $BASE_URL ?>">Home</a></li>
-        <li><a href="#">Categories</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="<?= $BASE_URL ?>/contact.php">Contact</a></li>
+        <li><a href="<?= $BASE_URL ?>" class="nav-link">Home</a></li>
+        <li><a href="#" class="nav-link">Categories</a></li>
+        <li><a href="#" class="nav-link">About</a></li>
+        <li><a href="<?= $BASE_URL ?>/contact.php" class="nav-link">Contact</a></li>
       </ul>
     </nav>
   </header>
