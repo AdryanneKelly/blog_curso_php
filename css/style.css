@@ -1,7 +1,24 @@
 *{
   font-family: 'Montserrat', sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-body{
-  background-color: #ccc;
+html {
+  min-height: 100vh;
+  position: relative;
+}
+
+main {
+  margin-bottom: 250px;
+
+}
+
+/* Navbar */
+
+#logo {
+  position: absolute;
+  top: 10px;
+  left: 9.5%;
 }
