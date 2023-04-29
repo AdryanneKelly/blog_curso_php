@@ -181,6 +181,40 @@ main {
 
 /* post aside */
 
+.nav-container {
+  grid-area: sidebar;
+}
+
+#tags-title, #categories-title {
+  font-size: 24px;
+  margin-bottom: 8px;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 8px;
+  font-weight: 300;
+  border-radius: 5px;
+}
+
+#tags-list, #categories-list {
+  list-style: none;
+}
+
+#tags-list li, #categories-list li {
+  margin-bottom: 10px;  
+}
+
+#tags-list a, #categories-list a {
+  color: #666;
+  transition: .5s;
+  text-decoration: none;
+}
+
+#tags-list a:hover, #categories-list a:hover {
+  color: #ff0000;
+  transition: .5s;
+}
+
 /* footer */
 
 footer {

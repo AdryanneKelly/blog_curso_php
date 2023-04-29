@@ -10,7 +10,7 @@ include_once("templates/header.php");
     <h1>Hora de Codar</h1>
     <p>O seu blog de programação</p>
   </div>
-  <div id="post-container">
+  <div id="posts-container">
     <?php foreach ($posts as $post) : ?>
       <div class="post-box">
         <img src="<?= $BASE_URL ?>/img/<?= $post['img']; ?>" alt="<?= $post['title']; ?>">
